@@ -1,2 +1,3 @@
-class Cipher
+def encode word
+
 end
