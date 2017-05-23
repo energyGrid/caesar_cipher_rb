@@ -3,7 +3,8 @@ class Cipher
   ## Two array strategy
   def self.encode(plaintext)
     plain_alphabet = ('a'..'z').to_a
-    cipher_alphabet = plain.rotate(13)
+    cipher_alphabet = plain_alphabet.rotate(13)
+
 
     plaintext_array = plaintext.split('')
 
